@@ -1,0 +1,24 @@
+{
+  "name": "TeX Live",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "james-yu.latex-workshop",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "latex-workshop.latex.autoBuild.run": "never",
+        "cSpell.language": "en",
+        "cSpell.enabledFileTypes": {
+          "latex": true,
+          "markdown": true,
+          "*": false
+        }
+      }
+    }
+  },
+  "remoteUser": "tl"
+}
