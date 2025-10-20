@@ -1,5 +1,5 @@
 # TeX Live Dev Container
-This is a dev container specification for the latest version of the TeX Live LaTeX distribution. It closely follows the installation instructions from the TeX Live website and picks beginner-friendly default settings.
+This is a dev container specification for the latest version of the TeX Live LaTeX distribution. It closely follows the installation instructions from the [TeX Live website](https://tug.org/texlive/quickinstall.html) and picks beginner-friendly default settings.
 
 ## Instructions
 Copy the `.devcontainer` folder into your LaTeX project and install the Dev Containers extension in VS Code. **Read the following instructions before building the container.**
